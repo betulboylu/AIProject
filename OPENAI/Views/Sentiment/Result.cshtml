@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Sentiment Analysis Results";
+}
+@model List<SentimentPrediction>
+<div class="card">
+    <div class="card-header nav-link">
+        <i class="fas fa-table me-1"></i>
+        <h3 class="text-warning text-lg-left">SENTIMENT ANALYSIS RESULTS</h3>
+    </div>
+    <div class="card-body">
+        <div class="content">
+            <div class="row">
+                <div class="col-6 font-weight-bold"><i class="fas fa-bullhorn"></i> Text</div>
+                <div class="col-3 font-weight-bold"><i class="fas fa-watch"></i>Prediction</div>
+                <div class="col-3 font-weight-bold"><i class="fas fa-pen"></i>Probability</div>
+            </div>
+            @if (Model!= null)
+            {
+                foreach (var item in Model)
+                {
+                    <div class="row">
+                        <div class="col-6">@item.Text</div>
+                        <div class="col-3">
+                            @if (item.Prediction)
+                            {
+                                <span>Positive Sentiment</span>
+                                <i class="fas fa-face-smile"></i>
+                            }
+                            else
+                            {
+                                <span>
+                                    Negative Sentiment
+                                </span><i class="fas fa-face-frawn"></i>
+                            }
+                        </div>
+                        <div class="col-3">@item.Probability</div>
+                    </div>
+                }
+          
+            }
+        </div>
+    </div>
+</div>
