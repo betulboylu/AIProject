@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Upload CSV";
+}
+<div class="card">
+    <div class="card-header nav-link">
+        <i class="fas fa-table me-1"></i>
+        <h3 class="text-info text-lg-left">FRAUD DETECTION</h3>
+    </div>
+    <div class="card-body">
+
+        <form asp-action="UploadCsv" method="post" enctype="multipart/form-data">
+            <h5><i class="fas fa-file"></i> Select a CSV file to train your model.</h5>
+            <div class="form-floating mb-5 ">
+                <input type="file" name="file" accept=".csv" />
+                <button type="submit" class="btn-info text-white mb-3">Upload and Detect</button>
+            </div>
+        </form>
+
+        @if (ViewBag.Error != null)
+        {
+            <p style="color:red;">@ViewBag.Error</p>
+        }
+    </div>
+</div>

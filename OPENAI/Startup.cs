@@ -25,7 +25,9 @@ namespace AIProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSingleton<MLModelBuilder>();
+            services.AddSingleton<SentimentService>();
+            services.AddSingleton<DataGeneratorService>();
+            services.AddSingleton<FraudService>();
             services.AddControllersWithViews();
         }
 

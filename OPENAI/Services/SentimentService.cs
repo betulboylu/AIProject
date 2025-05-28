@@ -9,12 +9,12 @@ using System.Linq;
 
 namespace AIProject.Services
 {
-    public class MLModelBuilder
+    public class SentimentService
     {
         private readonly MLContext _mlContext;
         private ITransformer _model;
 
-        public MLModelBuilder()
+        public SentimentService()
         {
             _mlContext = new MLContext();
         }
