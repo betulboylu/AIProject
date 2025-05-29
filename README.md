@@ -1,5 +1,7 @@
 # Sentiment Analysis, Fraud Detection with .NET Core & ML.NET
 
+![image](https://github.com/user-attachments/assets/f23f0ba3-1a56-4225-9a61-e8f4b7e5ef7d)
+
 **OVERVIEW**
 
 This project leverages the power of .NET Core and ML.NET to perform two key tasks:
