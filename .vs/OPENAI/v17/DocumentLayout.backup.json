@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bboylu\\source\\repos\\OPENAI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\AIProject.csproj|c:\\users\\bboylu\\source\\repos\\openai\\openai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\AIProject.csproj|solutionrelative:openai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\OPENAI.csproj|c:\\users\\bboylu\\source\\repos\\openai\\openai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\OPENAI.csproj|solutionrelative:openai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\AIProject.csproj|c:\\users\\bboylu\\source\\repos\\openai\\openai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\AIProject.csproj|solutionrelative:openai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\OPENAI.csproj|c:\\users\\bboylu\\source\\repos\\openai\\openai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D112958-2855-4945-9612-3CAE9B79B40A}|OPENAI\\OPENAI.csproj|solutionrelative:openai\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "OPENAI\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\bboylu\\source\\repos\\OPENAI\\OPENAI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OPENAI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T13:28:51.715Z",
               "EditorCaption": ""
@@ -43,7 +43,8 @@
               "RelativeToolTip": "OPENAI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:28:48.11Z"
+              "WhenOpened": "2025-04-17T13:28:48.11Z",
+              "EditorCaption": ""
             }
           ]
         }

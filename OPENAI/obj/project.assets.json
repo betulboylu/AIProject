@@ -5,14 +5,10 @@
       "Microsoft.Bcl.Numerics/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Bcl.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Bcl.Numerics.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.Numerics.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Bcl.Numerics.dll": {}
         }
       },
       "Microsoft.ML/4.0.2": {
@@ -28,44 +24,20 @@
           "System.Threading.Channels": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {}
         },
         "build": {
           "build/netstandard2.0/Microsoft.ML.props": {},
@@ -133,14 +105,10 @@
           "System.Numerics.Tensors": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
         },
         "build": {
           "build/netstandard2.0/_._": {}
@@ -179,14 +147,10 @@
           "System.Memory": "4.6.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
         }
       },
       "Microsoft.ML.FastTree/4.0.2": {
@@ -195,14 +159,10 @@
           "Microsoft.ML": "4.0.2"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
         },
         "build": {
           "build/netstandard2.0/Microsoft.ML.FastTree.props": {}
@@ -237,27 +197,19 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.CodeDom/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.CodeDom.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.CodeDom.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp2.0/System.CodeDom.targets": {}
@@ -270,14 +222,10 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets": {}
@@ -299,14 +247,10 @@
           "System.Memory": "4.5.5"
         },
         "compile": {
-          "lib/netstandard2.0/System.Numerics.Tensors.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Numerics.Tensors.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Numerics.Tensors.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Numerics.Tensors.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp2.0/System.Numerics.Tensors.targets": {}
@@ -324,14 +268,10 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -340,14 +280,10 @@
       "System.Threading.Channels/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/System.Threading.Channels.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/System.Threading.Channels.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets": {}
@@ -794,13 +730,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net5.0": {
@@ -821,8 +751,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -834,7 +763,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

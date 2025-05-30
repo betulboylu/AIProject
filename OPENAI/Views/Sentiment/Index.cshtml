@@ -2,30 +2,93 @@
     ViewData["Title"] = "Sentiment Analysis";
 }
 @model Prediction
-<div class="card">
-    <div class="card-header nav-link">
-        <i class="fas fa-table me-1"></i>
-        <h3 class="text-warning text-lg-left">SENTIMENT ANALYSIS</h3>
-    </div>
-    <div class="card-body">
+    <style>
+        .tooltip-wrapper {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
 
-        <form method="post" enctype="multipart/form-data" asp-controller="Sentiment" asp-action="Index">
-            <h5><i class="fas fa-file"></i> Select a CSV file to train your model.</h5>
-            <div class="form-floating mb-5 ">
-                <input type="file" name="File" id="File" accept=".csv" />
-                @Html.ValidationMessageFor(model => model.File, "", new { @class = "text-danger" })
-            </div>
-            <hr />
-            <h5><i class="fas fa-"></i>Type a sentence to predict its sentiment.</h5>
-            <div class="form-floating mb-5 ">
-                <input type="text" class="form-control" name="Text" id="Text" placeholder="Enter a sentence" />
-                @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
-            </div>
-            <hr />
-            <div class="form-floating mb-5 ">
-                <button type="submit" class="btn btn-warning text-black-50 float-right">Analyse</button>
-            </div>
+            .tooltip-wrapper .tooltip-text {
+                visibility: hidden;
+                width: 180px;
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                border-radius: 5px;
+                padding: 8px;
+                position: absolute;
+                z-index: 100;
+                bottom: 125%; /* Tooltip appears above */
+                left: 50%;
+                transform: translateX(-50%);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+                font-size: 14px;
+                pointer-events: none;
+                white-space: normal;
+            }
 
-        </form>
+            .tooltip-wrapper:hover .tooltip-text {
+                visibility: visible;
+                opacity: 1;
+            }
+
+        /* Circular icon button */
+        .help-icon-btn {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background-color: lightslategray;
+            color: white;
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 32px;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            padding: 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .help-icon-btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+
+    <div class="card">
+        <div class="card-header nav-link">
+            <i class="fas fa-table me-1"></i>
+            <h3 class="text-warning text-lg-left">SENTIMENT ANALYSIS</h3>
+        </div>
+        <div class="card-body">
+
+            <form method="post" enctype="multipart/form-data" asp-controller="Sentiment" asp-action="Index">
+                <h5>
+                    <i class="fas fa-file"></i> Select a CSV file to train your model.
+                    <div class="tooltip-wrapper">
+                        <button class="help-icon-btn" type="button">?</button>
+                        <div class="tooltip-text">Your CSV File should have Text,Label as labels.</div>
+                    </div>
+                </h5>
+                <div class="form-floating mb-5 ">
+                    <input type="file" name="File" id="File" accept=".csv" />
+                    @Html.ValidationMessageFor(model => model.File, "", new { @class = "text-danger" })
+                </div>
+                <hr />
+                <h5><i class="fas fa-"></i>Type a sentence to predict its sentiment.</h5>
+                <div class="form-floating mb-5 ">
+                    <input type="text" class="form-control" name="Text" id="Text" placeholder="Enter a sentence" />
+                    @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
+                </div>
+                <hr />
+                <div class="form-floating mb-5 ">
+                    <button type="submit" class="btn btn-warning text-black-50 float-right">Analyse</button>
+                </div>
+
+            </form>
+        </div>
     </div>
-</div>

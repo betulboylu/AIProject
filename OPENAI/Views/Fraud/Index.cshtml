@@ -1,6 +1,62 @@
 ﻿@{
     ViewData["Title"] = "Upload CSV";
 }
+<style>
+    .tooltip-wrapper {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+        .tooltip-wrapper .tooltip-text {
+            visibility: hidden;
+            width: 180px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            padding: 8px;
+            position: absolute;
+            z-index: 100;
+            bottom: 125%; /* Tooltip appears above */
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            font-size: 14px;
+            pointer-events: none;
+            white-space: normal;
+        }
+
+        .tooltip-wrapper:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+    /* Circular icon button */
+    .help-icon-btn {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: lightslategray;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 32px;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        padding: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .help-icon-btn:hover {
+            background-color: #0056b3;
+        }
+</style>
 <div class="card">
     <div class="card-header nav-link">
         <i class="fas fa-table me-1"></i>
@@ -9,7 +65,13 @@
     <div class="card-body">
 
         <form asp-action="UploadCsv" method="post" enctype="multipart/form-data">
-            <h5><i class="fas fa-file"></i> Select a CSV file to train your model.</h5>
+            <h5>
+                <i class="fas fa-file"></i> Select a CSV file to train your model.  
+                <div class="tooltip-wrapper">
+                    <button class="help-icon-btn" type="button">?</button>
+                    <div class="tooltip-text">Your CSV File should have TransactionId, Amount, HourOfDay, MerchantCategory, Location, TransactionType, HistoricalAvgAmount, NumTransactionsLast24h, IsFraud as labels.</div>
+                </div>
+            </h5>
             <div class="form-floating mb-5 ">
                 <input type="file" name="file" accept=".csv" />
                 <button type="submit" class="btn-info text-white mb-3">Upload and Detect</button>
