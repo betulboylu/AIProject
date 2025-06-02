@@ -1,16 +1,24 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+<style>
+    #rcorners1 {
+        border-radius: 2px;
+        border: 5px solid #808080;
+        padding: 10px;
+        font-family: Verdana;
+    }
+</style>
+<div id="rcorners1">This project contains various AI projects that uses ML.NET and .NET Core technologies. Enjoy testing them!</div>
 <div class="text-center">
     <div class="row">
         <div class="col-sm-4">
             <div class="box box-default ">
                 <div class="box-header with-border action-option">
-                    <h3 class="box-title"></h3>
+                    <h3 class="box-title"> </h3>
                 </div>
                 <div class="wrapper bg-light">
-                    <div class="container bg-warning mt-2 mb-2">
+                    <div class="container bg-warning mt-2 mb-2 rounded">
                         <div class="inner-wrapper">
                             <div class="card mt-2 mb-2">
                                 <div class="inner-card">
@@ -18,12 +26,12 @@
 
                                     </div>
                                     <div class="content">
-                                        <h1>Sentiment Analysis</h1>
-                                        <p>Upload your file, train your model and predict the result!</p>
-                                    
+                                        <h1> Sentiment Analysis</h1>
+                                        <p> Upload your file, train your model and predict the result!</p>
+
                                     </div>
                                     <div class="btn-wrapper">
-                                        <a asp-controller="Sentiment" action="Index"><button class="btn btn-warning text-white mb-3" data-src="Sentiment/Index">Go</button></a>
+                                        <a asp-controller="Sentiment" action="Index"> <button class="btn btn-warning text-white mb-3" data-src="Sentiment/Index"> Go</button> </a>
                                     </div>
                                 </div>
                             </div>
@@ -37,10 +45,10 @@
         <div class="col-sm-4">
             <div class="box box-default ">
                 <div class="box-header with-border action-option">
-                    <h3 class="box-title"></h3>
+                    <h3 class="box-title"> </h3>
                 </div>
                 <div class="wrapper bg-light">
-                    <div class="container bg-info mt-1 mb-1">
+                    <div class="container bg-info mt-1 mb-1 rounded">
                         <div class="inner-wrapper">
                             <div class="card">
                                 <div class="inner-card">
@@ -48,11 +56,39 @@
 
                                     </div>
                                     <div class="content">
-                                        <h1>Fraud Detection System</h1>
-                                        <p>Real-time transaction monitoring and classification</p>
+                                        <h1> Fraud Detection System</h1>
+                                        <p> Real-time transaction monitoring and classification</p>
                                     </div>
                                     <div class="btn-wrapper">
-                                        <a asp-controller="Fraud" action="Index"><button class="btn btn-info text-white mb-3" data-src="Sentiment/Index">Go</button></a>
+                                        <a asp-controller="Fraud" action="Index"> <button class="btn btn-info text-white mb-3" data-src="Sentiment/Index"> Go</button> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="box box-default ">
+                <div class="box-header with-border action-option">
+                    <h3 class="box-title"> </h3>
+                </div>
+                <div class="wrapper bg-light">
+                    <div class="container bg-danger mt-1 mb-1 rounded">
+                        <div class="inner-wrapper">
+                            <div class="card">
+                                <div class="inner-card">
+                                    <div class="img-wrapper">
+
+                                    </div>
+                                    <div class="content">
+                                        <h1> AI-Powered Text Summarizer</h1>
+                                        <p> Summarizes long documents or articles into shorter summaries using NLP models.</p>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <a asp-controller="Summarizer" action="Index"> <button class="btn btn-danger text-white mb-3" data-src="Summarizer/Index"> Go</button> </a>
                                     </div>
                                 </div>
                             </div>
