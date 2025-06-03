@@ -1,0 +1,20 @@
+﻿@model AIProject.Models.SummarizeViewModel
+@{
+    ViewData["Title"] = "Text Summarizer";
+}
+
+<div class="card">
+    <div class="card-header nav-link">
+        <i class="fas fa-table me-1"></i>
+        <h3 class="text-danger text-lg-left">TEXT SUMMARIZER</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Summarize" method="post">
+            <h5>Enter Text to Summarize</h5>
+            <textarea asp-for="InputText" rows="10" cols="80" class="form-control"></textarea>
+            <span asp-validation-for="InputText" class="text-danger"></span>
+            <br />
+            <button type="submit" class="btn-danger text-white mb-3 float-right">Summarize</button>
+        </form>
+    </div>
+</div>

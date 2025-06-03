@@ -83,3 +83,5 @@ C:\Users\bboylu\source\repos\OPENAI\OPENAI\bin\Debug\net5.0\runtimes\win-x86\nat
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\AIProject.csproj.AssemblyReference.cache
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Fraud\Index.cshtml.g.cs
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Fraud\Result.cshtml.g.cs
+C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Summarizer\Index.cshtml.g.cs
+C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Summarizer\Result.cshtml.g.cs
