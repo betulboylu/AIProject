@@ -4,17 +4,17 @@
     <div class="card">
         <div class="card-header nav-link">
             <i class="fas fa-table me-1"></i>
-            <h3 class="text-danger text-lg-left">SUMMARIZATION RESULTS</h3>
+            <h3 class="text-danger text-lg-left">@Resource.SummarizerResultTitle</h3>
         </div>
         <div class="card-body">
             <div class="content">
                 <h2>Original Text</h2>
                 <p>@Model.InputText</p>
                 <hr class="mb-4"/>
-                <h2>Summary</h2>
+                <h2>@Resource.SummaryTitle</h2>
                 <p><strong>@Model.Summary</strong></p>
 
-                <a class="btn btn-secondary" asp-action="Index">Summarize Another</a>
+                <a class="btn btn-secondary" asp-action="Index">@Resource.AnotherText</a>
             </div>
         </div>
     </div>

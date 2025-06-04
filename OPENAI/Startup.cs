@@ -30,6 +30,7 @@ namespace AIProject
             services.AddSingleton<FraudService>();
             services.AddControllersWithViews();
             services.AddHttpClient();
+            services.AddLocalization(o => { o.ResourcesPath = "Resources"; });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

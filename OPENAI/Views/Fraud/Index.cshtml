@@ -60,16 +60,16 @@
 <div class="card">
     <div class="card-header nav-link">
         <i class="fas fa-table me-1"></i>
-        <h3 class="text-info text-lg-left">FRAUD DETECTION</h3>
+        <h3 class="text-info text-lg-left">@Resource.FraudDetection</h3>
     </div>
     <div class="card-body">
 
         <form asp-action="UploadCsv" method="post" enctype="multipart/form-data">
             <h5>
-                <i class="fas fa-file"></i> Select a CSV file to train your model.  
+                <i class="fas fa-file"></i> @Resource.SelectACSV  
                 <div class="tooltip-wrapper">
                     <button class="help-icon-btn" type="button">?</button>
-                    <div class="tooltip-text">Your CSV File should have TransactionId, Amount, HourOfDay, MerchantCategory, Location, TransactionType, HistoricalAvgAmount, NumTransactionsLast24h, IsFraud as labels.</div>
+                    <div class="tooltip-text">@Resource.TransactionFileProperties</div>
                 </div>
             </h5>
             <div class="form-floating mb-5 ">

@@ -85,3 +85,5 @@ C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Fraud\In
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Fraud\Result.cshtml.g.cs
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Summarizer\Index.cshtml.g.cs
 C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\Razor\Views\Summarizer\Result.cshtml.g.cs
+C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\AIProject.Resources.Resource.resources
+C:\Users\bboylu\source\repos\OPENAI\OPENAI\obj\Debug\net5.0\AIProject.csproj.GenerateResource.cache

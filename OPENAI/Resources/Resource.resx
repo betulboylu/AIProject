@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnotherCSV" xml:space="preserve">
+    <value>Upload Another CSV</value>
+  </data>
+  <data name="AnotherText" xml:space="preserve">
+    <value>Summarize Another Text</value>
+  </data>
+  <data name="FraudDetection" xml:space="preserve">
+    <value>FRAUD DETECTION</value>
+  </data>
+  <data name="FraudDetectionDescription" xml:space="preserve">
+    <value>Real-time transaction monitoring and classification</value>
+  </data>
+  <data name="FraudDetectionSystem" xml:space="preserve">
+    <value>Fraud Detection System</value>
+  </data>
+  <data name="FraudResultTitle" xml:space="preserve">
+    <value>FRAUD DETECTION RESULTS</value>
+  </data>
+  <data name="NegativeResource" xml:space="preserve">
+    <value>Negative Sentiment</value>
+  </data>
+  <data name="PositiveResource" xml:space="preserve">
+    <value>Positive Sentiment</value>
+  </data>
+  <data name="SelectACSV" xml:space="preserve">
+    <value>Select a CSV file to train your model.</value>
+  </data>
+  <data name="SentimentAnalysis" xml:space="preserve">
+    <value>SENTIMENT ANALYSIS</value>
+  </data>
+  <data name="SentimentAnalysisDescription" xml:space="preserve">
+    <value>Upload your file, train your model and predict the result!</value>
+  </data>
+  <data name="SentimentAnalysisSystem" xml:space="preserve">
+    <value>Sentiment Analysis System</value>
+  </data>
+  <data name="SentimentFileProperties" xml:space="preserve">
+    <value>Your CSV File should have Text,Label as labels.</value>
+  </data>
+  <data name="SentimentResultTitle" xml:space="preserve">
+    <value>SENTIMENT ANALYSIS RESULTS</value>
+  </data>
+  <data name="SentimentText" xml:space="preserve">
+    <value>Type a sentence to predict its sentiment.</value>
+  </data>
+  <data name="SummarizerResultTitle" xml:space="preserve">
+    <value>SUMMARIZATION RESULTS</value>
+  </data>
+  <data name="SummaryTitle" xml:space="preserve">
+    <value>Summary Of Text</value>
+  </data>
+  <data name="TextSummarizer" xml:space="preserve">
+    <value>TEXT SUMMARIZER</value>
+  </data>
+  <data name="TextSummarizerDescription" xml:space="preserve">
+    <value>Summarizes long documents or articles into shorter summaries using NLP models.</value>
+  </data>
+  <data name="TextSummarizerSystem" xml:space="preserve">
+    <value>AI-Powered Text Summarizer</value>
+  </data>
+  <data name="TransactionFileProperties" xml:space="preserve">
+    <value>Your CSV File should have TransactionId, Amount, HourOfDay, MerchantCategory, Location, TransactionType, HistoricalAvgAmount, NumTransactionsLast24h, IsFraud as labels.</value>
+  </data>
+</root>
